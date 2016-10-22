@@ -1,0 +1,9 @@
+# do not publish IntelliJ files
+.idea
+
+# do not publish TS source, just JS output and TS typings
+*.ts
+!*.d.ts
+
+# do not publish external typings
+typings

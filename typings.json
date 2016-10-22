@@ -1,0 +1,17 @@
+{
+  "globalDependencies": {
+    "angular": "github:DefinitelyTyped/DefinitelyTyped/angularjs/angular.d.ts#060060dc34ef700a6ea9e00ccee69b570ff3c242",
+    "angular-hotkeys": "github:DefinitelyTyped/DefinitelyTyped/angular-hotkeys/angular-hotkeys.d.ts#7de6c3dd94feaeb21f20054b9f30d5dabc5efabd",
+    "angular-toastr": "github:DefinitelyTyped/DefinitelyTyped/angular-toastr/angular-toastr.d.ts#5a66911a99a4c13ecf4f38c3f574e32339e24de9",
+    "angular-ui-bootstrap": "github:DefinitelyTyped/DefinitelyTyped/angular-ui-bootstrap/angular-ui-bootstrap.d.ts#f3171e4cc00e270852e60d257931c8ea37273f2d",
+    "angular-ui-grid": "github:DefinitelyTyped/DefinitelyTyped/ui-grid/ui-grid.d.ts#b38cd68fe2dacaea0bb4efd6a3c638ceeae4fb25",
+    "angular-ui-router": "github:DefinitelyTyped/DefinitelyTyped/angular-ui-router/angular-ui-router.d.ts#b38cd68fe2dacaea0bb4efd6a3c638ceeae4fb25",
+    "d3": "github:DefinitelyTyped/DefinitelyTyped/d3/d3.d.ts#626e4aa1e48091285b6c9bdf2c893599e43f5b4b",
+    "eonasdan-bootstrap-datetimepicker": "github:DefinitelyTyped/DefinitelyTyped/eonasdan-bootstrap-datetimepicker/eonasdan-bootstrap-datetimepicker.d.ts#78d2f1ca929ddcfcc5a6f5d6fe72c3df8815c57f",
+    "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#6e54cb627506cf64d6effba1fe49b5a091ac4297",
+    "lodash": "github:DefinitelyTyped/DefinitelyTyped/lodash/lodash.d.ts#83f954972eea14a29161a0d9b9e602c4f8f824d1",
+    "moment": "github:DefinitelyTyped/DefinitelyTyped/moment/moment.d.ts#56295f5058cac7ae458540423c50ac2dcf9fc711",
+    "moment-node": "github:DefinitelyTyped/DefinitelyTyped/moment/moment-node.d.ts#8886ae591751e8a8237fa855617745768f0b1bdf",
+    "require": "registry:dt/require#2.1.20+20160316155526"
+  }
+}

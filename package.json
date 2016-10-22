@@ -1,0 +1,64 @@
+{
+  "name": "accsoft-web-components-tvc",
+  "description": "Contains Topological Visualisation Component (TVC). ",
+  "version": "0.3.1",
+  "repository": {
+    "type": "svn",
+    "url": "https://svn.cern.ch/reps/acc-co/trunk/accsoft/web/accsoft-web-components-tvc"
+  },
+  "bugs": {
+    "url": "https://issues.cern.ch/projects/ACW/issues/",
+    "email": "be-dep-co-acw-dev-team@cern.ch"
+  },
+  "homepage": "https://wikis.cern.ch/display/ACW/Accsoft+Commons+Web+Home",
+  "keywords": [
+    "accsoft",
+    "web",
+    "components",
+    "angular",
+    "d3",
+    "visualisation",
+    "tree",
+    "graph"
+  ],
+  "author": "Wiktor Jurasz <wiktor.jan.jurasz@cern.ch>",
+  "contributors": [
+    {
+      "name": "Wiktor Jurasz",
+      "email": "wiktor.jan.jurasz@cern.ch"
+    }
+  ],
+  "main": "lib/index.ts",
+  "typings": "lib/index",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "prepublish": "cpx \"src/**/*.scss\" lib && typings install && tsc",
+    "test": "TODO"
+  },
+  "dependencies": {
+    "angular-animate": "1.5.*",
+    "d3-selection": "^1.0.2",
+    "d3-selection-multi": "^1.0.0",
+    "d3-transition": "^1.0.2",
+    "d3-zoom": "^1.0.3",
+    "d3-force": "^1.0.2",
+    "d3-hierarchy": "^1.0.2",
+    "d3-drag": "^1.0.1"
+  },
+  "peerDependencies": {
+    "angular": "1.5.*",
+    "angular-ui-bootstrap": "1.3.*",
+    "angular-ui-grid": "3.2.*",
+    "bootstrap": "3.3.*",
+    "font-awesome": "4.6.*",
+    "lodash": "4.15.*"
+  },
+  "devDependencies": {
+    "cpx": "1.3.*",
+    "typescript": "1.8.*",
+    "typings": "1.3.*"
+  },
+  "license": "MIT"
+}

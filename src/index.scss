@@ -1,0 +1,4 @@
+// NOTE: names of all these files should begin with '_' in order to be included only once
+// NOTE2: styles folder should be imported first since all following depend on styles there
+@import 'tvc/colors';
+@import 'tvc/graph';
