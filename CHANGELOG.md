@@ -57,3 +57,13 @@
 ### Breaking Changes.
 *  mainNodeId (in ITopologyQueryConfig) is now function taking dynamic custom parameters as argument
     (instead of being string value)
+
+# 0.3.1 - 0.3.4
+### Bugfixes
+* Now works better with older versions of Angular.
+* Moved lodash to dependencies from peerDependencies
+
+# 0.3.5
+### Bugfixes
+* Search on empty string now do not highlight all nodes.
+

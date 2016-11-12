@@ -2,6 +2,7 @@ import {IStyleManager} from '../../configurations/manager/IStyleManager';
 import {IDataMetaProcessor} from '../../configurations/types/IDataMetaProcessor';
 import {IPredefinedType} from '../../configurations/manager/IPredefinedType';
 import {CustomMap} from '../utils/CustomMap';
+let _ = require('lodash');
 /**
  * Created by wjurasz on 29.08.16.
  */

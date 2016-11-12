@@ -11,6 +11,7 @@ import {IDataMetaProcessor} from '../../configurations/types/IDataMetaProcessor'
 import {TopologySearchService} from '../services/TopologySearchService';
 import {IEdgeModificationSearchStrategy} from '../utils/dom-modification-search-strategies/IEdgeModificationSearchStrategy';
 import {PathModificationStrategy} from '../utils/dom-modification-search-strategies/PathModificationStrategy';
+let _ = require('lodash');
 
 let d3Hierarchy = require('d3-hierarchy');
 let stratify = d3Hierarchy.stratify;

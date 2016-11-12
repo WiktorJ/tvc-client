@@ -12,7 +12,7 @@ import {INodeDisplayConfig} from '../configurations/manager/INodeDisplayConfig';
 import {CustomMap} from './utils/CustomMap';
 import {TopologySearchService} from './services/TopologySearchService';
 import {IDataManager} from '../configurations/IDataManager';
-
+let _ = require('lodash');
 
 export class TopologyVisualisationComponent implements ng.IComponentOptions {
     public static IID: string = 'acwTopologyVisualisation';

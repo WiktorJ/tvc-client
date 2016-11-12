@@ -1,6 +1,7 @@
 import {IDataManager} from '../../configurations/IDataManager';
 import {CustomMap} from '../utils/CustomMap';
 import isUndefined = require('lodash/isUndefined');
+let _ = require('lodash');
 /**
  * Created by wjurasz on 7/6/16.
  */

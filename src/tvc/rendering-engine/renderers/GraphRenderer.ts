@@ -13,6 +13,7 @@ import {IStyleManager} from '../../configurations/manager/IStyleManager';
 import {TopologySearchService} from '../services/TopologySearchService';
 import {IEdgeModificationSearchStrategy} from '../utils/dom-modification-search-strategies/IEdgeModificationSearchStrategy';
 import {LineModificationStrategy} from '../utils/dom-modification-search-strategies/LineModificationStrategy';
+let _ = require('lodash');
 
 let d3Force = require('d3-force');
 let forceSimulation = d3Force.forceSimulation;

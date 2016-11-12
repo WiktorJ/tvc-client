@@ -1,6 +1,8 @@
 import {ICustomEvent} from '../../configurations/types/ICustomEvent';
 import {IDataMetaProcessor} from '../../configurations/types/IDataMetaProcessor';
 import {ICustomManipulation} from '../../configurations/types/ICustomManipulation';
+let _ = require('lodash');
+
 let select = require('d3-selection').select;
 // import {select} from 'd3-selection';
 /**
