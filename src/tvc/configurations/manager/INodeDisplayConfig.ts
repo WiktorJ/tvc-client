@@ -14,6 +14,10 @@ import {IManipulationFunction} from '../types/IManipulationFunction';
  * through custom arrays. See Quick User Guide to usage examples.
  */
 export interface INodeDisplayConfig {
+
+    /**
+     * Color of node.
+     */
     fillColor?: string;
     /**
      * Relevant only for trees.

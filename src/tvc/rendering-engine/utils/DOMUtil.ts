@@ -32,7 +32,7 @@ export class DOMUtil {
                                      nodeData: any,
                                      dataMetaProcessor: IDataMetaProcessor): any {
         return _.reduce(customs, (result: any, value: ICustomManipulation) => {
-            result[value.name] = value.manipulationFunction;
+            result[value.name] = value.manipulationValue;
             return result;
         }, {});
     }

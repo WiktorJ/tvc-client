@@ -7,7 +7,7 @@ export interface ICustomManipulation {
     /**
      * Value of attribute, style or event.
      */
-    manipulationFunction: any;
+    manipulationValue: any;
     /**
      * Name of the attribute or style.
      */

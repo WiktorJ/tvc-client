@@ -4,7 +4,7 @@
 
 import {CustomMap} from '../rendering-engine/utils/CustomMap';
 /**
- *  This interface contains all information needed in order to correctly extract data from server.
+     *  This interface contains all information needed in order to correctly extract data from server.
  */
 export interface ITopologyQueryConfig {
     /**

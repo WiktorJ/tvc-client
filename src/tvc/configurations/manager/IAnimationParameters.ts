@@ -8,7 +8,16 @@ import {IGraphAnimationParameters} from './IGraphAnimationParameters';
  * These are separate for tree and graph.
  */
 export interface IAnimationParameters {
+    /**
+     * should canvas be zoomable
+     */
     zoom?: boolean;
+    /**
+     * Animation parameters specific for tree
+     */
     treeParameters?: ITreeAnimationParameters;
+    /**
+     * Animation parameters specific for graph
+     */
     graphParameters?: IGraphAnimationParameters;
 }

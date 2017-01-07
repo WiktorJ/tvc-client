@@ -2,9 +2,13 @@
  * Created by wjurasz on 14.09.16.
  */
 import {IMargins} from './IMargins';
+
+/**
+ * Configurable parts of size of visualisation window.
+ */
 export interface IVisualisationWindowSizes {
     /**
-     * Margins of visualisation, so the
+     * Margins of visualisation
      */
     margins?: IMargins;
     /**
@@ -18,5 +22,8 @@ export interface IVisualisationWindowSizes {
      */
     relativeWidth?: number;
 
+    /**
+     * Its only used for setting tree width. Visualisation canvas with is automatically adjusted to fill all the space it can.
+     */
     width?: number;
 }
